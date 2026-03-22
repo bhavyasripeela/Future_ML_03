@@ -91,10 +91,9 @@ resume-screening-system
 - resume_screening.ipynb
 - README.md
 ## ▶️ How to Run Locally
-pip install -r requirements.txt 
-streamlit run app.py
+-pip install -r requirements.txt 
+-streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-(Add your Streamlit app link here)
-
+https://futureml03-ererhpjdygq9wamkievqwr.streamlit.app/
