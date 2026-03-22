@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import string
+import os
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
 
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
