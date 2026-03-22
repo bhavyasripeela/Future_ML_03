@@ -31,6 +31,7 @@ if st.button("Analyze Resumes"):
     
     if job_description.strip() == "":
         st.warning("Please enter a job description")
+        st.stop
     else:
         job_clean = clean_text(job_description)
 
